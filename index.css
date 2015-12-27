@@ -27,6 +27,20 @@ header
     top: 0;
     right: 0;
     left: 0;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+}
+header > img
+{
+    margin: 15px;
+    cursor: pointer;
+}
+
+body > header, body > article
+{
+    display: block;
+    width: 100%;
+    left: 0;
+    right: 0;
 }
 /*selects all header tags and nav tags*/
 header, nav
