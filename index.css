@@ -112,12 +112,6 @@ nav ul
 {
     display: block;
 }
-.nav span
-{
-    position: absolute;
-    bottom: 60px;
-    right: 30px;
-}
 .nav div
 {
 	position: absolute;
