@@ -118,3 +118,7 @@ nav ul
     bottom: 60px;
     right: 30px;
 }
+img
+{
+	vertical-align: middle;
+}
