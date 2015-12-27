@@ -20,6 +20,14 @@ body
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
+header
+{
+    position: relative;
+    display: block;
+    top: 0;
+    right: 0;
+    left: 0;
+}
 /*selects all header tags and nav tags*/
 header, nav
 {
