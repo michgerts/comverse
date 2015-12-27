@@ -118,6 +118,13 @@ nav ul
     bottom: 60px;
     right: 30px;
 }
+.nav div
+{
+	position: absolute;
+	bottom: 60px;
+    right: 30px;
+
+}
 img
 {
 	vertical-align: middle;
