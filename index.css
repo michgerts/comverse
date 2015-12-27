@@ -1,12 +1,54 @@
-
+/*All elements within the HTML should have width and height properties include the content, padding and border (all except margin)*/
 html
 {
     box-sizing: border-box;
 }
+/*Detrmine the font type and size for the entire body*/
 body
 {
     margin: 0;
     background-color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
+}
+/*selects all header tags and nav tags*/
+header, nav
+{
+    background-color: white;
+    display: inline-block;
+    vertical-align: bottom;
+}
+/*selects all ul's within a nav tag*/
+nav ul
+{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+/*All list items under (sons of) class containing nav*/
+.nav > li
+{
+    float: left;
+    list-style: none;
+}
+/*All links that are under list items that are sons of a class containing nav*/
+.nav > li a
+{
+    color: black;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    width: 160px;
+}
+/*links that are sons of list item that is a son of a class containing nav*
+/*hover selects links on mouse-over*/
+/*focus selects the link element that has focus*/
+.nav > li > a:hover,
+.nav > li > a:focus
+{
+    background-color: #FCFCFC;
+    border: 1px solid #D5D5D5;
+    color: #3399CC;
+    border-bottom: none;
 }
