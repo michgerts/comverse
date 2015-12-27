@@ -4,6 +4,15 @@ html
     box-sizing: border-box;
 }
 /*Detrmine the font type and size for the entire body*/
+a
+{
+    text-decoration: none;
+}
+
+ul
+{
+    list-style-type: none;
+}
 body
 {
     margin: 0;
@@ -51,4 +60,33 @@ nav ul
     border: 1px solid #D5D5D5;
     color: #3399CC;
     border-bottom: none;
+}
+
+.nav > li > ul
+{
+    border: 1px solid #D5D5D5;
+    border-top: none;
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    box-shadow: -7px 7px 10px rgba(0, 0, 0, 0.4);
+}
+
+.nav ul a
+{
+    background-color: #FCFCFC;
+    width: 100%;
+}
+
+.nav ul a:hover,
+.nav ul a:focus
+{
+    color: #3399CC;
+}
+
+.nav > li:hover > ul
+{
+    display: block;
 }
