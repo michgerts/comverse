@@ -150,3 +150,14 @@ nav button
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.main
+{
+    display: block;
+    background-image: url("imagesForComverse/slide-bg-complexity.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
