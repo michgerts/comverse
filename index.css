@@ -154,7 +154,24 @@ nav button
     padding-top: 10px;
     padding-bottom: 20px;
 }
+.main > div
+{
+    width: 100%;
+}
 .center
 {
     margin: 0 auto;
+}
+.article-first
+{
+    background: url("imagesForComverse/weDoBG.png"),
+            radial-gradient(rgba(89, 190, 219, 0.9) 0%, rgba(51, 153, 204, 0.9) 100%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.article-first > h1
+{
+    margin-top: 0;
+    width: 80%;
+    margin-left: 10px;
 }
