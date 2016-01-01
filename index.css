@@ -143,3 +143,10 @@ nav button
 {
 	content: url("imagesForComverse/searchBtn.png");
 }
+  .1st
+    {
+        background: url("../img/weDoBG.png"),
+                radial-gradient(rgba(89, 190, 219, 0.9) 0%, rgba(51, 153, 204, 0.9) 100%);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
