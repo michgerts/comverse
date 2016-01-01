@@ -158,14 +158,13 @@ nav button
 {
     width: 100%;
 }
-.center
+.left-side-bar
 {
     margin: 0 auto;
+    width: 950px;
 }
 .article-first
 {
-    background: url("imagesForComverse/weDoBG.png"),
-            radial-gradient(rgba(89, 190, 219, 0.9) 0%, rgba(51, 153, 204, 0.9) 100%);
     padding-top: 10px;
     padding-bottom: 10px;
 }
