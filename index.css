@@ -156,12 +156,11 @@ nav button
 }
 .main > div
 {
-    width: 100%;
+    width: 950px;
 }
 .left-side-bar
 {
     margin: 0 auto;
-    width: 950px;
 }
 .article-first
 {
