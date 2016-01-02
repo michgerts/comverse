@@ -161,6 +161,16 @@ nav button
 {
     width: 950px;
 }
+.main h2
+{
+    margin-bottom: 0px;
+}
+h2
+{
+    font-size: 40px;
+    font-weight: 100;
+    color: white;
+}
 .left-side-bar
 {
     margin: 0 auto;
@@ -170,20 +180,12 @@ nav button
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.article-first > h1
+.article-first > h2
 {
-    margin-top: 0;
-    font-size: 40px;
-    font-weight: 100;
-    color: white;
     width: 50%;
     margin-left: 40px;
 }
 b
 {
   font-weight: 600;
-}
-.main h1
-{
-    margin-bottom: 0px;
 }
