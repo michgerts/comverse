@@ -184,3 +184,13 @@ b
 {
   font-weight: 600;
 }
+.article-first > p
+{
+	width: 50%;
+    margin-left: 40px;
+}
+.main p
+{
+	color: white;
+    margin: 5px;
+}
