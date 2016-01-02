@@ -173,11 +173,11 @@ nav button
 .article-first > h1
 {
     margin-top: 0;
-    width: 80%;
-    margin-left: 10px;
     font-size: 40px;
     font-weight: 100;
     color: white;
+    width: 50%;
+    margin-left: 40px;
 }
 strong
 {
