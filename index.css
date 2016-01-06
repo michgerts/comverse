@@ -180,7 +180,7 @@ h2
     width: 50%;
     margin-left: 40px;
 }
-b
+b, strong
 {
   font-weight: 600;
 }
@@ -193,4 +193,35 @@ b
 {
 	width: 50%;
     margin-left: 40px;
+}
+nav input
+{
+    border: solid 1px LightGray;
+    border-radius: 7px;
+    line-height: 20px;
+}
+.buttonWithArrow {
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 40px;
+    display: block;
+    background: #2793C9;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 15px;
+    transition: all 0.2s ease-out;
+}
+.buttonWithArrow > a 
+{
+    color:white;
+}
+
+.arrow{
+    content: url('imagesForComverse/btnArrow.png');
+    position: relative;
+    right: -7px;
+    top: 3.5px;
+    float: right;
 }
