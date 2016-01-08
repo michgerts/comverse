@@ -212,6 +212,10 @@ nav input
     padding-right: 15px;
     transition: all 0.2s ease-out;
 }
+.buttonWithArrow:hover
+{
+    background: #379fd4;
+}
 .buttonWithArrow > a 
 {
     color:white;
@@ -374,6 +378,10 @@ nav input
     background: rgba(32, 126, 160, 0.6);
     padding-right: 25px; 
 }
+buttonTurnDark:hover
+{
+    background:rgba(64, 136, 160, 0.6);
+}
 .center 
 {
     margin: 0 auto;
@@ -499,4 +507,43 @@ nav input
 #PostIcon:hover::before
 {
     content: url("imagesForComverse/eventListIconPress_hover.png");
+}
+.Success 
+{
+    background: #ececec;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.Success h2
+{
+    color: #565656;
+}
+.Success li
+{
+    display: inline-block;
+}
+blockquote
+{
+    background: white;
+    padding: 15px;
+    margin-bottom: 6px;
+    text-align: left;
+}
+.uglyman span
+{
+    content: url("imagesForComverse/CB-JP-face.png");
+    float: left;
+    margin-right: 10px;
+}
+.Success blockquote .quote::before {
+    content: url("imagesForComverse/quote-grey.png");
+}
+.Success blockquote .id
+{
+    display: block;
+    color: DeepSkyBlue;
+}
+hr
+{
+    margin-top: 20px;
 }
