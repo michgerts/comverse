@@ -154,7 +154,7 @@ nav button
     background-size: auto;
     background-position: center 0px;
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 4px;
 }
 .main > div
 {
@@ -278,6 +278,96 @@ nav input
     color: white;
     font-size: 13px;
     font-weight: 600;
-    margin-left: 0px;
+    margin-left: 0;
     bottom: 12px;
+}
+.ThingsWeProvide
+{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background: url("imagesForComverse/weDoBG.png"), radial-gradient(#59BEDB 0%, #3399CC 100%);
+}
+.services1
+{
+    content: url("imagesForComverse/solution_icon_biz-analitics.png");
+}
+.services1:hover
+{
+    content: url("imagesForComverse/solution_icon_biz-analitics_hover.png");
+}
+.ThingsWeProvide li
+{
+    display: inline-block;
+    margin-right: 0px;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    margin-bottom: 30px;
+}
+.ThingsWeProvide li span
+{
+    display: block;
+}
+.ThingsWeProvide a 
+{
+    color: white;
+}
+.ThingsWeProvide a div 
+{
+    padding-bottom: 10px;
+}
+.services2
+{
+    content: url("imagesForComverse/solution_icon_diti-cx.png");
+}
+.services2:hover
+{
+    content: url("imagesForComverse/solution_icon_diti-cx_hover.png");
+}
+.services3
+{
+    content: url("imagesForComverse/solution_icon_smart-money.png");
+}
+.services3:hover
+{
+    content: url("imagesForComverse/solution_icon_smart-money_hover.png");
+}
+.services4
+{
+    content: url("imagesForComverse/solution_icon_optimize-efficnt.png");
+}
+.services4:hover
+{
+    content: url("imagesForComverse/solution_icon_optimize-efficnt_hover.png");
+}
+.services5
+{
+    content: url("imagesForComverse/solution_icon_personal.png");
+}
+.services5:hover 
+{
+    content: url("imagesForComverse/solution_icon_personal_hover.png");
+}
+.services6
+{
+    content: url("imagesForComverse/solution_icon_biz-transform.png");
+}
+.services6:hover 
+{
+    content: url("imagesForComverse/solution_icon_biz-transform_hover.png");
+}
+.buttonTurnDark
+{
+    background: rgba(32, 126, 160, 0.6);
+    padding-right: 25px; 
+}
+.center 
+{
+    margin: 0 auto;
+}
+.center .arrow
+{
+    right: -17px;
+    top: -15px; 
 }
