@@ -715,4 +715,19 @@ hr
         right: 15px;
         
     }
+    .article-first
+    {
+        background: url("imagesForComverse/weDoBG.png"), radial-gradient(rgba(89, 190, 219, 0.9) 0%, rgba(51, 153, 204, 0.9) 100%);
+        margin-top: 0px;
+    }
+    .main
+    {
+        padding: 0px;
+    }
+    .article-first > h2
+    {
+        margin-top: 0px;
+    }
+
+
 }
