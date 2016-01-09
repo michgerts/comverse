@@ -199,7 +199,111 @@ nav input
     border-radius: 7px;
     line-height: 20px;
 }
-.buttonWithArrow {
+.mobile-nav
+{
+    display: none;
+}
+.menu
+{
+    content: url("imagesForComverse/hamburger-icon.png");
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 10px;
+    margin-left: 10px;    
+}
+.mobile-btn
+{
+    background-color: #E5E5E5;
+    border: solid 1px #D9D9D9;
+    border-radius: 5px;
+    padding: 10px 7px;
+    cursor: pointer;
+}
+.search
+{
+    content: url("imagesForComverse/searchBtnMobile.png");
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 8px 7px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#menu-check-box
+{
+    display: none;
+}
+
+#search-check-box
+{
+    display: none;
+}
+#menu-check-box:checked ~ ul
+{
+    display: block;
+}
+.mobile-nav ul
+{
+    display: none;
+}
+.mobile-nav form
+{
+    display: none;
+}
+.mobile-nav ul
+{
+    display: none;
+    text-align: left;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.mobile-nav li
+{
+    background-color: #FCFCFC;
+    border-bottom: solid 1px #DBDBDB;
+    background: url("imagesForComverse/bodyBG.png") repeat scroll 0 0 rgb(244,243,244);
+    padding: 5px;
+    height: 28px;
+    cursor: pointer;        
+}
+.mobile-nav li:before
+{
+    content: url("imagesForComverse/navCollapseArrowRight.png");
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.mobile-nav li:hover
+{
+    background-image: none; 
+    background-color: #FCFCFC;
+}
+.mobile-nav a
+{
+    color: #585951;
+    vertical-align: middle;
+}
+.mobile-nav a:hover
+{
+    color: #3399CC;        
+}    
+
+.mobile-nav form input
+{
+    width: 95%;
+    line-height: 25px;
+    font-size: 14px;
+    color: #B5B5B5;
+    padding-left: 5px;
+}
+#search-check-box:checked ~ form
+{
+    display: block;
+}
+.buttonWithArrow
+{
     width: 150px;
     margin-top: 20px;
     margin-left: 40px;
@@ -221,7 +325,7 @@ nav input
     color:white;
 }
 .arrow{
-    content: url('imagesForComverse/btnArrow.png');
+    content: url("imagesForComverse/btnArrow.png");
     position: relative;
     right: -7px;
     top: 3.5px;
@@ -535,6 +639,10 @@ blockquote
     float: left;
     margin-right: 10px;
 }
+.uglyman > p
+{ 
+    font-size: 17.5px;
+}
 .Success blockquote .quote::before {
     content: url("imagesForComverse/quote-grey.png");
 }
@@ -542,8 +650,38 @@ blockquote
 {
     display: block;
     color: DeepSkyBlue;
+    font-size: 13.5px;
 }
 hr
 {
     margin-top: 20px;
+}
+.Success blockquote .title
+{
+        font-size: 13.5px;
+}
+
+
+@media all and (max-width:768px)
+{
+    h2
+    {
+        font-size: 33px;
+    }
+
+
+    header img
+    {
+        content: url("imagesForComverse/comverse-logo-medium.png");
+    }
+
+    .nav, .nav form
+    {
+        display: none;
+    }
+
+    .mobile-nav
+    {
+        display: block;
+    }
 }
