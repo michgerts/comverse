@@ -661,7 +661,6 @@ hr
         font-size: 13.5px;
 }
 
-
 @media all and (max-width:768px)
 {
     h2
@@ -683,5 +682,37 @@ hr
     .mobile-nav
     {
         display: block;
+    }
+    .PinkPostIt
+    {
+        position: relative;
+        font-size: 24px;
+        border-radius: 0;
+        width: 40%;
+        margin-top: 10px;
+        margin-right: 0px;
+        padding-left: 2%; 
+        padding-right: 0;
+        font-size: 20px;
+        display: block;
+    }
+    .PinkPostIt a
+    {
+        font-size: 16px;
+        bottom: 15px;
+        margin-left: 10px;
+    }
+    .PinkPostIt > p
+    {
+        width: 75%
+    }
+    .PinkPostIt::before
+    {
+        position: relative;
+        content: url("imagesForComverse/promotion-item-arrow.png");
+        float: right;
+        top: 45px;
+        right: 15px;
+        
     }
 }
