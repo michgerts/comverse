@@ -198,6 +198,7 @@ nav input
     border: solid 1px LightGray;
     border-radius: 7px;
     line-height: 20px;
+    padding-right: 16px;
 }
 .mobile-nav
 {
