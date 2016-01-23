@@ -734,6 +734,13 @@ hr
 
 
 }
+footer 
+{
+    display: block;
+    font-size: 13.5px;
+    color: white;
+    background-image: url("imagesForComverse/footer-bg.png"), radial-gradient(white 0%, transparent 100%);
+}
 ol {
     display: block;
     list-style-type: decimal;
@@ -743,18 +750,11 @@ ol {
     -webkit-margin-end: 0px;
     -webkit-padding-start: 40px;
 }
-footer 
-{
-    display: block;
-    font-size: 13.5px;
-    color: white;
-    background-image: url("imagesForComverse/footer-bg.png"), radial-gradient(white 0%, transparent 100%);
-}
 footer ol 
 {
     display: block;
     position: relative;
-    margin: 0;
+    margin: 0px;
 }
 footer > p 
 {
@@ -877,7 +877,7 @@ aside {
     margin: 0px;
     padding: 0 0 0 5px;
     border: none;
-    border-radius: 2px;
+    border-radius: 4px;
     border-color: white;
     background: white;
     margin-right: 0px;
@@ -891,4 +891,19 @@ footer hr
     margin: 1em 0;
     padding: 0;
 }
-
+footer div h4 
+{
+    margin: 8px;
+}
+.socialNetworks li 
+{
+    display: inline-block;
+    position: relative;
+    top: 25px;
+    right:80px;
+}
+.socialNetworks 
+{
+    margin: 3.3em 1em 1em 1em;
+}
+.
