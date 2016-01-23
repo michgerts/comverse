@@ -802,3 +802,84 @@ ol, ul
 {
     color: rgb(113,113,113);
 }
+aside 
+{
+    display: block;
+    position: relative;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    height: 300px;
+    width: 240px;
+    padding: 15px;
+    font-size: 17px;
+}
+h4 
+{
+    font-size: 18px;
+    font-weight: 600;
+    color: DeepSkyBlue;
+    margin: 0px;
+}
+aside {
+    display: block;
+    position: relative;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    height: 300px;
+    width: 240px;
+    padding: 15px;
+    font-size: 17px;
+}
+.footer-date-box 
+{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 50px;
+    bottom: 8px;
+}
+.footer-date-box-day
+{
+    float: left;
+    font-size: 40px;
+    font-weight: 500px;
+}
+.footer-date-box-month {
+    float: left;
+    clear: left;
+    margin-top: -10px;
+    font-size: 22px;
+    font-weight: 400px;
+}
+.footer-event
+{
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    padding-left: 20px;
+    width: 170px;
+}
+.sub {
+    background: linear-gradient(to bottom, #40a5d7 , #2a92c6);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 26px;
+    width: 30%;
+    float: right;
+    margin-left: 0px;
+    height: 26.5px;
+}
+.sub-mail {
+    width: 66.5%;
+    height: 26.5px;
+    margin: 0px;
+    padding: 0 0 0 5px;
+    border: none;
+    border-radius: 2px;
+    border-color: white;
+    background: white;
+    margin-right: 0px;
+}
+
