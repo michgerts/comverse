@@ -863,7 +863,7 @@ aside {
     background: linear-gradient(to bottom, #40a5d7 , #2a92c6);
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
     height: 26px;
     width: 30%;
@@ -881,5 +881,14 @@ aside {
     border-color: white;
     background: white;
     margin-right: 0px;
+}
+footer hr 
+{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
 }
 
