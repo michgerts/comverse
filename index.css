@@ -732,7 +732,6 @@ hr
         margin-top: 0px;
     }
 
-
 }
 footer 
 {
@@ -749,6 +748,10 @@ ol {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     -webkit-padding-start: 40px;
+}
+ol, ul 
+{
+    list-style-type: none;
 }
 footer ol 
 {
@@ -785,7 +788,8 @@ footer ul
 }
 footer ul li a
 {
-    margin-bottom: 6px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 footer a 
 {
@@ -793,10 +797,6 @@ footer a
     text-align: -webkit-match-parent;
     padding: 3px;
     color: white;
-}
-ol, ul 
-{
-    list-style-type: none;
 }
 .copyrights
 {
