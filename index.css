@@ -910,3 +910,11 @@ footer div h4
 {
     content: url("imagesForComverse/socialMenuIcon-twitter_hover.png");
 }
+.linkedin:hover
+{
+    content: url("imagesForComverse/socialMenuIcon-linkdin_hover.png");
+}
+.youtube:hover
+{
+    content: url("imagesForComverse/socialMenuIcon-youtube_hover.png");
+}
