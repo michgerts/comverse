@@ -906,4 +906,7 @@ footer div h4
 {
     margin: 3.3em 1em 1em 1em;
 }
-.
+.twitter:hover
+{
+    content: url("imagesForComverse/socialMenuIcon-twitter_hover.png");
+}
