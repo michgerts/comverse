@@ -342,9 +342,16 @@ nav input
     border-radius: 3px;
     cursor: pointer;
 }
+.mobileSquares .whiteSquares
+{
+    height: 23px;
+    width: 23px;
+    text-align: center;
+}
 .turnBlue
 {
     background-color: #2793C9;
+    color: white;
 }
 .PinkPostIt
 {
@@ -734,6 +741,7 @@ footer a
 .copyrights
 {
     color: rgb(113,113,113);
+    margin: 0px;
 }
 aside 
 {
@@ -745,6 +753,7 @@ aside
     width: 240px;
     padding: 15px;
     font-size: 17px;
+    margin-left: 10px;
 }
 h4 
 {
@@ -878,11 +887,15 @@ footer div h4
     color: black;
     height: 20px;
 }
+.footer_4mobile, #mobileCopyRights, .mobileSquares
+{
+    display: none;
+}
 
 @media all and (max-width:768px)
 {
 
-
+   
     h2
     {
         font-size: 33px;
@@ -962,14 +975,18 @@ footer div h4
     {
         margin-top: 0px;
     }
-    .regular_footer
+    .regular_footer, .squares
     {
         display: none;
     }
 
-    .footer_4mobile
+    .footer_4mobile, #mobileCopyRights, .mobileSquares
     {
         display: block;
+    }
+    .footer_4mobile li > a:hover
+    {
+        background-color: rgba(255, 255, 255, 0.6);
     }
 
     footer > p
