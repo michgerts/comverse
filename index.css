@@ -663,76 +663,9 @@ hr
 }
 #wide_btn
 {
-    width: 180px}
-@media all and (max-width:768px)
-{
-    h2
-    {
-        font-size: 33px;
-    }
-
-
-    header img
-    {
-        content: url("imagesForComverse/comverse-logo-medium.png");
-    }
-
-    .nav, .nav form
-    {
-        display: none;
-    }
-
-    .mobile-nav
-    {
-        display: block;
-    }
-    .PinkPostIt
-    {
-        position: relative;
-        font-size: 24px;
-        border-radius: 0;
-        width: 40%;
-        margin-top: 10px;
-        margin-right: 0px;
-        padding-left: 2%; 
-        padding-right: 0;
-        font-size: 20px;
-        display: block;
-    }
-    .PinkPostIt a
-    {
-        font-size: 16px;
-        bottom: 15px;
-        margin-left: 10px;
-    }
-    .PinkPostIt > p
-    {
-        width: 75%
-    }
-    .PinkPostIt::before
-    {
-        position: relative;
-        content: url("imagesForComverse/promotion-item-arrow.png");
-        float: right;
-        top: 45px;
-        right: 15px;
-        
-    }
-    .article-first
-    {
-        background: url("imagesForComverse/weDoBG.png"), radial-gradient(rgba(89, 190, 219, 0.9) 0%, rgba(51, 153, 204, 0.9) 100%);
-        margin-top: 0px;
-    }
-    .main
-    {
-        padding: 0px;
-    }
-    .article-first > h2
-    {
-        margin-top: 0px;
-    }
-
+    width: 180px
 }
+
 footer 
 {
     display: block;
@@ -917,4 +850,87 @@ footer div h4
 .youtube:hover
 {
     content: url("imagesForComverse/socialMenuIcon-youtube_hover.png");
+}
+@media all and (max-width:768px)
+{
+    h2
+    {
+        font-size: 33px;
+    }
+
+
+    header img
+    {
+        content: url("imagesForComverse/comverse-logo-medium.png");
+    }
+
+    .nav, .nav form
+    {
+        display: none;
+    }
+
+    .mobile-nav
+    {
+        display: block;
+    }
+    .PinkPostIt
+    {
+        position: relative;
+        font-size: 24px;
+        border-radius: 0;
+        width: 40%;
+        margin-top: 10px;
+        margin-right: 0px;
+        padding-left: 2%; 
+        padding-right: 0;
+        font-size: 20px;
+        display: block;
+    }
+    .PinkPostIt a
+    {
+        font-size: 16px;
+        bottom: 15px;
+        margin-left: 10px;
+    }
+    .PinkPostIt > p
+    {
+        width: 75%
+    }
+    .PinkPostIt::before
+    {
+        position: relative;
+        content: url("imagesForComverse/promotion-item-arrow.png");
+        float: right;
+        top: 45px;
+        right: 15px;
+        
+    }
+    .article-first
+    {
+        background: url("imagesForComverse/weDoBG.png"), radial-gradient(rgba(89, 190, 219, 0.9) 0%, rgba(51, 153, 204, 0.9) 100%);
+        margin-top: 0px;
+    }
+    .main
+    {
+        padding: 0px;
+    }
+    .article-first > h2
+    {
+        margin-top: 0px;
+    }
+        footer
+    {
+        display: none;
+    }
+
+    .footer_4mobile
+    {
+        display: block;
+    }
+
+    footer > p
+    {
+        display: none;
+    }
+
 }
