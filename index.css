@@ -851,6 +851,34 @@ footer div h4
 {
     content: url("imagesForComverse/socialMenuIcon-youtube_hover.png");
 }
+.icons_mobile a, .changeLanguage a, .changeLanguage form
+{
+    display: inline-block;
+}
+.footer_4mobile li
+{
+    padding: 0px;
+    text-align: left;
+    background-color: transparent;
+    border-bottom: solid 1px black;
+    height: 28px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.footer_4mobile
+{
+   padding: 0px; 
+}
+#mobileCopyRights
+{
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    height: 20px;
+}
+
 @media all and (max-width:768px)
 {
 
@@ -868,8 +896,6 @@ footer div h4
      {
         height: 109px;
      }
-
-
 
     header img
     {
