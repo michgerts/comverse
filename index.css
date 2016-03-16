@@ -662,7 +662,7 @@ blockquote
 }
 hr
 {
-    margin-top: 20px;
+    margin-top: 12px;
 }
 .Success blockquote .title
 {
@@ -672,7 +672,13 @@ hr
 {
     width: 180px
 }
-
+#someicon
+{
+    content: url("imagesForComverse/cable_wireless_w100px_X_h42px2.jpg");   
+    position: relative;
+    float: right;
+    bottom: 50px;
+}
 footer 
 {
     display: block;
