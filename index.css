@@ -110,7 +110,7 @@ nav ul
 {
     color: #3399CC;
 }
-
+/*hover feature for all li under nav class that have a direct son of type ul */
 .nav > li:hover > ul
 {
     display: block;
@@ -490,7 +490,7 @@ nav input
     background: rgba(32, 126, 160, 0.6);
     padding-right: 25px; 
 }
-buttonTurnDark:hover
+.buttonTurnDark:hover
 {
     background:rgba(64, 136, 160, 0.6);
 }
@@ -674,6 +674,7 @@ blockquote
 {
     height: 186px;
 }
+/*Those men were not attractive!*/
 .uglyman > span
 {
     content: url("imagesForComverse/CB-JP-face.png");
@@ -803,6 +804,15 @@ h3
     font-size: 15px;
     font-weight: 300;
     color: white;
+}
+h5
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    color: white;
+    display: block;
+    font-size: 20px;
+    margin: 0px;
 }
 .Col 
 {
@@ -986,11 +996,9 @@ footer div h4
 {
     font-size: 13px;
 }
-
+/*adjusments for mobile or smaller screens*/
 @media all and (max-width:768px)
 {
-
-
     h2
     {
         font-size: 33px;
@@ -1000,11 +1008,10 @@ footer div h4
     {
         width: auto;
     }
-     .WhatsUp div
-     {
+    .WhatsUp div
+    {
         height: 109px;
-     }
-
+    }
     header img
     {
         content: url("imagesForComverse/comverse-logo-medium.png");
@@ -1014,12 +1021,10 @@ footer div h4
         margin-bottom: 0px;
         padding-bottom: 16px;
     }
-
     .nav, .nav form
     {
         display: none;
     }
-
     .mobile-nav
     {
         display: block;
@@ -1093,9 +1098,7 @@ footer div h4
     }
     .Success li
     {
-      display: block;
-      margin: auto;
+        display: block;
+        margin: auto;
     }
-
-
 }
