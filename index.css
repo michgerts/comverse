@@ -634,14 +634,47 @@ buttonTurnDark:hover
 {
     display: inline-block;
 }
+#ADALE
+{
+    content: url("imagesForComverse/JT-GM-face.png");
+}
+#maxicon
+{
+    content: url("imagesForComverse/MAX_telecom_w108px_X_h95.jpg");  
+}
+#staricon
+{
+    content: url("imagesForComverse/Kyivstarw_w108px_X_h95.jpg");  
+}
+#videoicon
+{
+    content: url("imagesForComverse/VIDEOCON_w108px_X_h95px.jpg");    
+}
+#mtcicon
+{
+    content: url("imagesForComverse/mts_w108px_X_h95px.jpg"); 
+}
+#tataicon
+{
+    content: url("imagesForComverse/Tata_Sky_w108px_X_h95px.jpg");
+}
+#upcicon
+{
+    content: url("imagesForComverse/upc_w108px_X_h95px.jpg");
+}
 blockquote
 {
     background: white;
     padding: 15px;
-    margin-bottom: 6px;
+    width: 315px;
     text-align: left;
+    font-size: 17.5px;
 }
-.uglyman span
+#secondBlock
+{
+    height: 186px;
+}
+.uglyman > span
 {
     content: url("imagesForComverse/CB-JP-face.png");
     float: left;
@@ -660,6 +693,33 @@ blockquote
     color: DeepSkyBlue;
     font-size: 13.5px;
 }
+.column
+{
+    vertical-align: top;
+    display: inline-block;
+    width: 352px;
+    margin: 0px;
+    padding: 0px;
+
+}
+.thinColumn
+{
+    width: 233px;
+}
+.thinBlock
+{
+    width: 196px;
+    padding: 15.5px;
+}
+.Success li > * 
+{
+    margin: 3px;
+    border-radius: 3px;
+}
+.column > span
+{
+    margin-top: 6px;
+}
 hr
 {
     margin-top: 12px;
@@ -677,7 +737,31 @@ hr
     content: url("imagesForComverse/cable_wireless_w100px_X_h42px2.jpg");   
     position: relative;
     float: right;
-    bottom: 50px;
+    bottom: 18px;
+}
+#jticon
+{
+    content: url("imagesForComverse/Jersey_Telecom_w100px_X_h42px.jpg");   
+    position: relative;
+    float: right;
+    bottom: 9px;
+}
+#utsicon
+{
+    content: url("imagesForComverse/uts_w70px_x_h29px.jpg"); 
+    float: right;  
+}
+#mobicon
+{
+    content: url("imagesForComverse/3mob_w108px_X_h95px.jpg");
+}
+#playicon
+{
+    content: url("imagesForComverse/play_w108px_X_h95px.jpg"); 
+}
+#playicon:hover, #upcicon:hover, #mobicon:hover, #tataicon:hover, #mtcicon:hover, #videoicon:hover, #staricon:hover, #maxicon:hover
+{
+    content: url("imagesForComverse/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg");
 }
 footer 
 {
@@ -686,7 +770,8 @@ footer
     color: white;
     background-image: url("imagesForComverse/footer-bg.png"), radial-gradient(white 0%, transparent 100%);
 }
-ol {
+ol
+{
     display: block;
     list-style-type: decimal;
     -webkit-margin-before: 1em;
@@ -897,11 +982,15 @@ footer div h4
 {
     display: none;
 }
+#smallerFont
+{
+    font-size: 13px;
+}
 
 @media all and (max-width:768px)
 {
 
-   
+
     h2
     {
         font-size: 33px;
@@ -994,10 +1083,19 @@ footer div h4
     {
         background-color: rgba(255, 255, 255, 0.6);
     }
-
     footer > p
     {
         display: none;
     }
+    .thinColumn, .thinBlock, #mobicon, #playicon
+    {
+        display: none;
+    }
+    .Success li
+    {
+      display: block;
+      margin: auto;
+    }
+
 
 }
